@@ -1,0 +1,128 @@
+html, body {
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/*text style*/
+
+p {font-family: 'Roboto', sans-serif;}
+
+h1 {
+    color: #d96459;
+    text-transform: uppercase;
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+    padding: 12px;
+    margin-top: 100px;
+}
+
+a {
+    color: #d96459;
+    text-decoration: none;
+}
+
+
+/*mouse over link*/
+
+a:hover {
+    color: #588c7e; }
+
+/*site divs*/
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.side {
+    width: 30%;
+    vertical-align: top;
+    float: left;
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.pages {
+    margin: 0px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left:20px;
+}
+
+/*footer goes on all pages*/
+
+#footer {
+    clear: both;
+    width: 100%;
+    height: 40px;
+    position: fixed; 
+    bottom: 0px;
+    background-color: #d96459;
+    margin-top; 10px;
+}
+    
+#footer p {
+    font-family: "Amatic SC", cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: auto;
+}
+
+/*indivdual page custom styles*/
+
+.ka_main {
+    position: absolute;
+    left: 500px;
+    max-width: 600px;
+    top: 0px;
+    margin-bottom: 500px;
+    padding-bottom: 100px;
+}
+
+.h1_kate {
+    color: #d96459;
+    text-transform: uppercase;
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.charlie_main {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    max-width: 600px;
+    margin-bottom: 116px;}
+    
+.about_main, .main {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    max-width: 600px;
+    margin-bottom: 116px;
+}
+
+
+.d_main {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+.heads {
+    color: #d96459;
+    text-transform: uppercase;
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+    
